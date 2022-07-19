@@ -13,6 +13,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+section {
+    margin-bottom: 8%;
+}
+
 /* styles of banner-container of main  */
 
 main .banner-container {
@@ -22,6 +26,7 @@ main .banner-container {
     background-color: #161616;
     border-radius: 20px;
     display: flex;
+
 }
 
 .banner-container .banner-info {
@@ -47,6 +52,11 @@ main .banner-container {
     padding: 2% 5%;
     border-radius: 5px;
     font-size: 10px;
+
+}
+
+.banner-info i {
+    padding-left: 2%;
 }
 
 .banner-img {
@@ -58,4 +68,43 @@ main .banner-container {
     width: 180%;
     height: 100%;
 
+}
+
+/* banner container style finished */
+
+/* style of next section(nav bar and grid layout) */
+
+section .navbar {
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding: 2%;
+    text-align: center;
+    /* position: sticky; */
+}
+
+.navbar .same-navbar {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: lighter;
+    background-color: white;
+    margin-bottom: 10%;
+    padding: 5% 10%;
+    border-radius: 5px;
+
+}
+
+.navbar .dif-navbar {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    background-color: #DD0000;
+    margin-bottom: 10%;
+    padding: 5% 10%;
+    border-radius: 5px;
 }
