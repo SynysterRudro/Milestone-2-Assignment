@@ -94,7 +94,7 @@ section .navbar {
 .navbar .same-navbar {
     text-decoration: none;
     color: black;
-    font-size: 12px;
+    font-size: .6em;
     font-weight: lighter;
     background-color: white;
     margin-bottom: 10%;
@@ -106,7 +106,7 @@ section .navbar {
 .navbar .dif-navbar {
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: .6em;
     font-weight: lighter;
     background-color: #DD0000;
     margin-bottom: 10%;
@@ -163,5 +163,55 @@ section .blogs {
 }
 
 .blogs .icons span {
+    margin-right: 10%;
+}
+
+/* design for main section ended */
+
+
+/* footer part style */
+
+footer {
+    background-color: #161616;
+    text-align: center;
+    height: 20vw;
+
+}
+
+footer h2 {
+
+    color: white;
+    margin-bottom: 2%;
+    padding-top: 3%;
+}
+
+footer hr {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer .footer-link {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
     margin-right: 5%;
+
+}
+
+footer .footer-link a {
+    padding-top: 30%;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
+
+.footer-icon {
+    padding-top: 2%
+}
+
+.footer-icon a {
+    color: white;
+
 }
