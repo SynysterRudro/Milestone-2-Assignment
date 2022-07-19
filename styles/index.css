@@ -1,0 +1,61 @@
+/* importing poppins from google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+/* setiing margin 0 in the whole html file  */
+* {
+    margin: 0;
+}
+
+/* setting poppins font to the body part  */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* styles of banner-container of main  */
+
+main .banner-container {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #161616;
+    border-radius: 20px;
+    display: flex;
+}
+
+.banner-container .banner-info {
+    padding: 7% 7%;
+}
+
+.banner-info h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.banner-info p {
+    color: white;
+    font-size: 8px;
+    margin-bottom: 15px;
+}
+
+.banner-info a {
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    padding: 2% 5%;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.banner-img {
+    margin-right: 20%;
+
+}
+
+.banner-img img {
+    width: 180%;
+    height: 100%;
+
+}
