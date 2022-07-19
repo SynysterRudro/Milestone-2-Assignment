@@ -26,6 +26,7 @@ main .banner-container {
     background-color: #161616;
     border-radius: 20px;
     display: flex;
+    height: 100%;
 
 }
 
@@ -78,12 +79,16 @@ section .navbar {
     background-color: #161616;
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 30%;
     margin-left: 5%;
     border-radius: 5px;
     padding: 2%;
     text-align: center;
-    /* position: sticky; */
+    height: 60%;
+    margin-right: 3%;
+
+    position: sticky;
+    top: 25%;
 }
 
 .navbar .same-navbar {
@@ -107,4 +112,56 @@ section .navbar {
     margin-bottom: 10%;
     padding: 5% 10%;
     border-radius: 5px;
+}
+
+/* the blog part  */
+
+
+section .blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    margin-right: 5%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.blogs .blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs .blog img {
+    width: 100%;
+    height: auto;
+}
+
+/* .blogs .blog a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: .7em;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+} */
+
+.blogs .blog h5 {
+    font-size: .8em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.blogs .icons {
+    font-size: .6em;
+    color: rgb(63, 62, 62);
+}
+
+.blogs .icons span {
+    margin-right: 5%;
 }
