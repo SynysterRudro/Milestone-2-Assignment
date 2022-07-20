@@ -138,6 +138,19 @@ section .blogs {
     height: auto;
 }
 
+.blogs .txt {
+    margin-top: 10px;
+}
+
+.blogs .txt a {
+
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 2% 5%;
+    border-radius: 5px;
+}
+
 /* .blogs .blog a {
     text-decoration: none;
     color: black;
@@ -164,6 +177,10 @@ section .blogs {
 
 .blogs .icons span {
     margin-right: 10%;
+}
+
+.flex-container .view-all {
+    visibility: hidden;
 }
 
 /* design for main section ended */
@@ -204,7 +221,7 @@ footer .footer-link a {
     padding-top: 30%;
     text-decoration: none;
     color: white;
-    font-size: .8em;
+    font-size: .7em;
 
 }
 
@@ -260,6 +277,19 @@ footer .footer-link a {
         margin-bottom: 25%;
     }
 
+    .flex-container .view-all {
+
+        visibility: visible;
+        background-color: #DD0000;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        padding: 2px 3px;
+        margin-left: 5%;
+        margin-top: 0;
+
+    }
+
     footer {
         width: 25rem;
         height: 400px;
@@ -277,5 +307,56 @@ footer .footer-link a {
 }
 
 
-/* Media query part for desktop view  */
-@media screen and (min-width:577px) and (max-width:994px) {}
+/* Media query part for tablet view  */
+@media screen and (min-width:577px) and (max-width:994px) {
+
+    .banner-container .banner-info {
+        width: 50%;
+    }
+
+    .banner-container .banner-img {
+        width: 50%;
+    }
+
+    .banner-container .banner-info .short {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    section .navbar {
+        flex-direction: row;
+        background-color: white;
+        position: static;
+        margin-left: 25%;
+    }
+
+    section .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+
+    }
+
+    .dsply-none {
+        visibility: hidden;
+        max-height: 0;
+        margin-bottom: 25%;
+    }
+
+    .flex-container .view-all {
+
+        visibility: visible;
+        background-color: #DD0000;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        padding: 2px 3px;
+        margin-left: 5%;
+        margin-top: 0;
+
+    }
+}

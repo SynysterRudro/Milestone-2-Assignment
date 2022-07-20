@@ -1,0 +1,265 @@
+/* importing poppins from google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+/* setiing margin 0 in the whole html file  */
+* {
+    margin: 0;
+}
+
+/* setting poppins font to the body part  */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    margin-bottom: 8%;
+}
+
+/* styles of banner-container of main  */
+
+main .banner-container {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #161616;
+    border-radius: 20px;
+    display: flex;
+    height: 100%;
+
+}
+
+main .flex-container {
+    display: flex;
+}
+
+.banner-container .banner-info {
+    padding: 7% 7%;
+}
+
+.banner-info h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 2%;
+}
+
+.banner-info p {
+    color: white;
+    font-size: .7em;
+    margin-bottom: 3%;
+}
+
+.banner-info a {
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    padding: 2% 5%;
+    border-radius: 5px;
+    font-size: .7em;
+
+}
+
+.banner-info i {
+    padding-left: 2%;
+}
+
+.banner-img {
+    margin-right: 20%;
+
+}
+
+.banner-img img {
+    width: 180%;
+    height: 100%;
+
+}
+
+/* banner container style finished */
+
+
+
+
+
+section .navbar {
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding: 2%;
+    text-align: center;
+    height: 60%;
+    margin-right: 3%;
+
+    position: sticky;
+    top: 25%;
+}
+
+.navbar .same-navbar {
+    text-decoration: none;
+    color: black;
+    font-size: .8em;
+    font-weight: lighter;
+    background-color: white;
+    margin-bottom: 10%;
+    padding: 5% 10%;
+    border-radius: 5px;
+
+}
+
+.navbar .dif-navbar {
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+    font-weight: lighter;
+    background-color: #DD0000;
+    margin-bottom: 10%;
+    padding: 5% 10%;
+    border-radius: 5px;
+}
+
+/* the blog part  */
+
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    margin-right: 5%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.match .match-info {
+    margin-top: 5%;
+}
+
+.match .date {
+    color: gray;
+    font-weight: lighter;
+    font-size: .7em;
+}
+
+.matches .match-flex {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(194, 191, 191); */
+
+
+
+}
+
+.matches article {
+
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    padding: 25% 5%;
+}
+
+.matches img {
+    width: 40%;
+
+}
+
+
+
+/* footer part style */
+
+footer {
+    background-color: #161616;
+    text-align: center;
+    height: 15rem;
+
+}
+
+footer h2 {
+
+    color: white;
+    margin-bottom: 2%;
+    padding-top: 3%;
+}
+
+footer hr {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer .footer-link {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: flex-end;
+
+}
+
+footer .footer-link a {
+    padding-top: 30%;
+    text-decoration: none;
+    color: white;
+    font-size: .7em;
+
+}
+
+.footer-icon {
+    padding-top: 2%
+}
+
+.footer-icon a {
+    color: white;
+
+}
+
+
+
+
+
+
+
+/* media query for phone */
+@media screen and (max-width: 576px) {
+
+
+    main .banner-container {
+        flex-direction: column;
+
+    }
+
+    .banner-img img {
+        width: 100%;
+
+    }
+
+    .banner-info .short {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+
+
+
+/* Media query part for tablet view  */
+@media screen and (min-width:577px) and (max-width:994px) {
+
+    .banner-container .banner-info {
+        width: 50%;
+    }
+
+    .banner-container .banner-img {
+        width: 50%;
+    }
+
+    .banner-container .banner-info .short {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
