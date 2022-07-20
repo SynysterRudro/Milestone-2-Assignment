@@ -60,6 +60,13 @@ main .flex-container {
 
 }
 
+.banner-info a:hover {
+    padding: 2% 7%;
+    border-radius: 5px;
+    font-size: .9em;
+    background-color: rgb(1, 1, 54);
+}
+
 .banner-info i {
     padding-left: 2%;
 }
@@ -241,19 +248,35 @@ footer .footer-link a {
         text-overflow: ellipsis;
     }
 
+    section .navbar {
+        background-color: white;
+        position: static;
+        align-items: center;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
     .flex-container .matches {
 
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .matches article {
+        padding: 10% 5%;
+        margin-left: 5%;
+    }
+
     footer {
+        margin-top: 60%;
         width: 25rem;
         height: 400px;
     }
 
     footer .footer-link {
         flex-direction: column;
-        margin-left: 0;
+        margin-left: 5%;
         align-items: flex-start;
     }
 

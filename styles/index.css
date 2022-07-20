@@ -56,6 +56,13 @@ main .banner-container {
 
 }
 
+.banner-info a:hover {
+    padding: 2% 7%;
+    border-radius: 5px;
+    font-size: .9em;
+    background-color: rgb(1, 1, 54);
+}
+
 .banner-info i {
     padding-left: 2%;
 }
@@ -259,6 +266,7 @@ footer .footer-link a {
         background-color: white;
         position: static;
         align-items: center;
+
     }
 
     section .blogs {
@@ -300,8 +308,6 @@ footer .footer-link a {
         margin-left: 0;
         align-items: flex-start;
     }
-
-
 
 
 }
