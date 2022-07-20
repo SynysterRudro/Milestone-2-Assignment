@@ -123,7 +123,7 @@ section .navbar {
 /* the blog part  */
 
 
-.matches {
+.flex-container .matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2%;
@@ -241,6 +241,22 @@ footer .footer-link a {
         text-overflow: ellipsis;
     }
 
+    .flex-container .matches {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        width: 25rem;
+        height: 400px;
+    }
+
+    footer .footer-link {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: flex-start;
+    }
+
 }
 
 
@@ -261,5 +277,11 @@ footer .footer-link a {
         overflow: hidden;
         text-overflow: ellipsis;
     }
+
+    .flex-container .matches {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
 
 }
