@@ -94,7 +94,7 @@ section .navbar {
 .navbar .same-navbar {
     text-decoration: none;
     color: black;
-    font-size: .7em;
+    font-size: .8em;
     font-weight: lighter;
     background-color: white;
     margin-bottom: 10%;
@@ -106,7 +106,7 @@ section .navbar {
 .navbar .dif-navbar {
     text-decoration: none;
     color: white;
-    font-size: .7em;
+    font-size: .8em;
     font-weight: lighter;
     background-color: #DD0000;
     margin-bottom: 10%;
@@ -216,3 +216,66 @@ footer .footer-link a {
     color: white;
 
 }
+
+/* Media query part for mobile view  */
+
+@media screen and (max-width: 576px) {
+
+
+    main .banner-container {
+        flex-direction: column;
+
+    }
+
+    .banner-img img {
+        width: 100%;
+
+    }
+
+    .banner-info .short {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    section .navbar {
+        background-color: white;
+        position: static;
+        align-items: center;
+    }
+
+    section .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .dsply-none {
+        visibility: hidden;
+        max-height: 0;
+        margin-bottom: 25%;
+    }
+
+    footer {
+        width: 25rem;
+        height: 400px;
+    }
+
+    footer .footer-link {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: flex-start;
+    }
+
+
+
+
+}
+
+
+/* Media query part for desktop view  */
+@media screen and (min-width:577px) and (max-width:994px) {}
