@@ -285,18 +285,7 @@ footer .footer-link a {
         margin-bottom: 25%;
     }
 
-    .flex-container .view-all {
 
-        visibility: visible;
-        background-color: #DD0000;
-        text-decoration: none;
-        color: white;
-        border-radius: 5px;
-        padding: 3px 10px;
-        margin-left: 5%;
-        margin-top: 0;
-
-    }
 
     footer {
         margin-top: 60%;
