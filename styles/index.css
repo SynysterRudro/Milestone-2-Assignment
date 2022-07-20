@@ -246,6 +246,10 @@ footer .footer-link a {
 @media screen and (max-width: 576px) {
 
 
+    section {
+        margin-bottom: -50px;
+    }
+
     main .banner-container {
         flex-direction: column;
 
@@ -288,7 +292,7 @@ footer .footer-link a {
 
 
     footer {
-        margin-top: 60%;
+        margin-top: 0;
         width: 25rem;
         height: 400px;
     }
