@@ -36,14 +36,14 @@ main .banner-container {
 
 .banner-info h1 {
     color: white;
-    font-size: 35px;
-    margin-bottom: 5px;
+    font-size: 3em;
+    margin-bottom: 2%;
 }
 
 .banner-info p {
     color: white;
-    font-size: 8px;
-    margin-bottom: 15px;
+    font-size: .7em;
+    margin-bottom: 3%;
 }
 
 .banner-info a {
@@ -52,7 +52,7 @@ main .banner-container {
     background-color: #DD0000;
     padding: 2% 5%;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: .7em;
 
 }
 
@@ -94,7 +94,7 @@ section .navbar {
 .navbar .same-navbar {
     text-decoration: none;
     color: black;
-    font-size: .6em;
+    font-size: .7em;
     font-weight: lighter;
     background-color: white;
     margin-bottom: 10%;
@@ -106,7 +106,7 @@ section .navbar {
 .navbar .dif-navbar {
     text-decoration: none;
     color: white;
-    font-size: .6em;
+    font-size: .7em;
     font-weight: lighter;
     background-color: #DD0000;
     margin-bottom: 10%;
@@ -174,7 +174,7 @@ section .blogs {
 footer {
     background-color: #161616;
     text-align: center;
-    height: 20vw;
+    height: 15rem;
 
 }
 
@@ -196,6 +196,7 @@ footer .footer-link {
     justify-content: space-between;
     margin-left: 5%;
     margin-right: 5%;
+    align-items: flex-end;
 
 }
 
@@ -203,7 +204,7 @@ footer .footer-link a {
     padding-top: 30%;
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: .8em;
 
 }
 
