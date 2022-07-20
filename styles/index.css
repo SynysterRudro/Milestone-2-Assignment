@@ -146,7 +146,9 @@ section .blogs {
 }
 
 .blogs .txt {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 .blogs .txt a {
@@ -267,11 +269,13 @@ footer .footer-link a {
     }
 
     section .navbar {
-        background-color: white;
+
         position: static;
         align-items: center;
+        background-color: white;
         margin-top: 100px;
         margin-left: 15%;
+        margin-bottom: 40px;
 
     }
 
@@ -289,6 +293,10 @@ footer .footer-link a {
         visibility: hidden;
         max-height: 0;
         margin-bottom: 25%;
+    }
+
+    .navbar .same-navbar {
+        border: 1px solid gray;
     }
 
 
@@ -341,6 +349,11 @@ footer .footer-link a {
     .flex-container {
         flex-direction: column;
 
+    }
+
+    .navbar .same-navbar {
+        border: 1px solid gray;
+        margin-right: 5%;
     }
 
     .dsply-none {

@@ -92,12 +92,12 @@ section .navbar {
     background-color: #5B02DE;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 200px;
     margin-left: 5%;
     border-radius: 5px;
     padding: 2%;
     text-align: center;
-    height: 60%;
+    height: 180px;
     margin-right: 3%;
 
     position: sticky;
@@ -249,9 +249,12 @@ footer .footer-link a {
     }
 
     section .navbar {
-        background-color: white;
+
         position: static;
+        background-color: white;
         align-items: center;
+        margin-bottom: 50px;
+        margin-left: 25%;
     }
 
     .flex-container {
@@ -261,6 +264,10 @@ footer .footer-link a {
     .flex-container .matches {
 
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .navbar .same-navbar {
+        border: 1px solid gray;
     }
 
     .matches article {
@@ -301,10 +308,31 @@ footer .footer-link a {
         text-overflow: ellipsis;
     }
 
-    .flex-container .matches {
-        grid-template-columns: repeat(2, 1fr);
+    section .navbar {
+        flex-direction: row;
+        background-color: white;
+        position: static;
+        margin-left: 25%;
     }
 
+    section .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5%;
+    }
 
+    .flex-container {
+        flex-direction: column;
 
+    }
+
+    .navbar .same-navbar {
+        border: 1px solid gray;
+        margin-right: 5%;
+    }
+
+    .dsply-none {
+        visibility: hidden;
+        max-height: 0;
+        margin-bottom: 25%;
+    }
 }
