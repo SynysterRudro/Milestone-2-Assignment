@@ -172,6 +172,10 @@ section .navbar {
 
 }
 
+.view-all {
+    visibility: hidden;
+}
+
 
 
 /* footer part style */
@@ -277,7 +281,7 @@ footer .footer-link a {
 
     footer {
         margin-top: 60%;
-        width: 25rem;
+        width: 100%;
         height: 400px;
     }
 
@@ -315,7 +319,7 @@ footer .footer-link a {
         margin-left: 25%;
     }
 
-    section .blogs {
+    .flex-container .matches {
         grid-template-columns: repeat(2, 1fr);
         margin-left: 5%;
     }
@@ -325,9 +329,12 @@ footer .footer-link a {
 
     }
 
+
     .navbar .same-navbar {
         border: 1px solid gray;
-        margin-right: 5%;
+        margin-left: 5%;
+        padding-bottom: 0;
+
     }
 
     .dsply-none {
@@ -335,4 +342,17 @@ footer .footer-link a {
         max-height: 0;
         margin-bottom: 25%;
     }
+
+    .flex-container .view-all {
+        visibility: visible;
+        text-decoration: none;
+        color: white;
+        background-color: #FF30A1;
+        margin-left: 20px;
+        padding: 1.5% 5%;
+        margin-bottom: 20px;
+
+    }
+
+
 }
